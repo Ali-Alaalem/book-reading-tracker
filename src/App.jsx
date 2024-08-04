@@ -13,7 +13,7 @@ const App = () => {
       <h1>Book reading List</h1>
       <ul>
         {items.map((item, index) => (
-          <li key={index} className={item.read ? 'Has been read' : 'has been not read`'}>
+          <li key={index} className={item.read ? 'read' : ' not-read'}>
             {item.name}
           </li>
         ))}
